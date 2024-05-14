@@ -1,0 +1,18 @@
+.global-component {
+    &__date-input {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+
+        .date-input__input {
+            width: 100%;
+            height: 0.1rem;
+            padding: 1.5rem 1rem 1rem;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            font-size: 1.6rem;
+            outline: none;
+
+        }
+    }
+}
